@@ -1,0 +1,9 @@
+body {
+	padding-top: 50px;
+	color: #2d2d2d;
+	font-family: 'Mali', cursive;
+}
+.starter-template {
+	background-image:
+  text-align: center;
+}
