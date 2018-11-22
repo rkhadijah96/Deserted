@@ -13,3 +13,9 @@ body {
 
     padding-top: 40px;
 }
+h1{
+	font-size:80px
+}
+p.lead{
+	font-size: 30px
+}
