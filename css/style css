@@ -4,6 +4,6 @@ body {
 	font-family: 'Mali', cursive;
 }
 .starter-template {
-	background-image:
+  padding: 40px 15px;
   text-align: center;
 }
