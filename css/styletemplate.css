@@ -14,3 +14,15 @@ div.starter-template {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.maincontainer {
+
+    padding-top: 40px;
+		}
+h1{
+	font-size:50px
+}
+
+p.lead{
+	font-size: 20px
+	}
