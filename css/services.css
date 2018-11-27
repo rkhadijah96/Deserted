@@ -8,7 +8,7 @@ p {
   font-weight: 700;
   text-align: center;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 span {
@@ -27,3 +27,9 @@ p.lead{
    width:750px;
    height:500px;
  }
+
+ .item {
+    display: none;
+    position: relative;
+    .transition(.10s ease-in-out left);
+}
