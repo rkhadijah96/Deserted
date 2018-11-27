@@ -10,7 +10,7 @@ body {
 
 div.starter-template {
 	background-image: url("");
-	background-size: cover;
+	background-size: 50px
 	background-position: center;
 	background-repeat: no-repeat;
 }
