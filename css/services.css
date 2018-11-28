@@ -25,11 +25,27 @@ p.lead{
 
   #ServicesCarousel {
    width:750px;
-   height:500px;
+   height:480px;
   }
 
  .item {
     display: none;
     position: relative;
     .transition(.10s ease-in-out left);
+}
+
+div.nexttocarousel {
+    display: flex;
+    justify-content:space between;
+}
+
+
+form {
+  background-color: #8FBC8F;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+select {
+  padding: 20px 20px
 }
