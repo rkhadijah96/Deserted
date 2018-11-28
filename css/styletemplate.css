@@ -15,6 +15,11 @@ div.starter-template {
 	background-repeat: no-repeat;
 }
 
+div.nexttocarousel {
+    display: flex;
+    justify-content:flex-end;
+}
+
 .maincontainer {
 
     padding-top: 40px;
@@ -26,7 +31,7 @@ h1{
 p.lead{
 	font-size: 20px
 	}
-	</p>
+
 	.fa {
 	    padding: 20px;
 	    font-size: 30px;
@@ -70,7 +75,7 @@ p.lead{
 			color: white;
 		}
 
-	.sticky-container{
+	.sticky-container {
 	    padding:0px;
 	    margin:0px;
 	    position:fixed;
@@ -79,7 +84,7 @@ p.lead{
 	    width:210px;
 	    z-index: 1100;
 	}
-	.sticky li{
+	.sticky li {
 	    list-style-type:none;
 	    background-color:#fff;
 	    color:#efefef;
@@ -92,26 +97,24 @@ p.lead{
 	    transition:all 0.25s ease-in-out;
 	    cursor:pointer;
 	}
-	.sticky li:hover{
+	.sticky li:hover {
 	    margin-left:-115px;
 	}
-	.sticky li img{
+	.sticky li img {
 	    float:left;
 	    margin:5px 4px;
 	    margin-right:5px;
 	}
-	.sticky li p{
+	.sticky li p {
 	    padding-top:5px;
 	    margin:0px;
 	    line-height:16px;
 	    font-size:11px;
 	}
-	.sticky li p a{
+	.sticky li p a {
 	    text-decoration:none;
 	    color:#2C3539;
 	}
-	.sticky li p a:hover{
+	.sticky li p a:hover {
 	    text-decoration:underline;
 	}
-
-	.
