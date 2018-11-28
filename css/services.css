@@ -3,7 +3,7 @@ h3 {color: white;
 
 }
 
-p {
+p.carousel {
   color: white;
   font-weight: 700;
   text-align: center;
@@ -28,8 +28,14 @@ p.lead{
    height:500px;
   }
 
+
  .item {
     display: none;
     position: relative;
     .transition(.10s ease-in-out left);
+}
+
+.nexttocarousel {
+  color: black;
+  font-size: 18px;
 }
