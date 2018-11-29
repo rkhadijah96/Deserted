@@ -9,6 +9,8 @@ body {
 background-repeat: no-repeat;
 background-position: center;
 	background-size: contain;
+	height: 350px;
+
 
 	text-align: center;
 
@@ -16,6 +18,7 @@ background-position: center;
 .maincontainer{
 
     padding-top: 40px;
+
 }
 h1{
 	font-size:100px
@@ -54,11 +57,13 @@ p.lead{
 .carousel-inner {
   width:100%;
   max-height: 500px !important;
+	
 }
 
 .item {
   width: 750px;
   height: 500px;
+
 }
 
 /* Style all font awesome icons */
