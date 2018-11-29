@@ -28,14 +28,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="file:///Users/MelanieWebb/Desktop/GitHub/Deserted/html/titlepage.html">Home</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <li><a href="file:///Users/MelanieWebb/Desktop/GitHub/Deserted/about.html">About</a></li>
+            </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -49,7 +48,33 @@
 						Be immersed and you'll learn what to say...</p>
 				</div>
 			</div>
-			<div id="ServicesCarousel" class="carousel slide" data-ride="carousel">
+
+			<div class="nexttocarousel"><!-- container for carousel and form-->
+
+					<div class="nexttocarousel">
+						<form>
+					<p class="lead">What's next?</p>
+				<p class= "lead">Select the language you want to learn:</p>
+					<select class= "form" name="Select Language">
+						<option value="Arabic">Arabic</option>
+						<option value="Chinese">Chinese</option>
+						<option value="French">French</option>
+						<option value="German">German</option>
+						<option value="Italian">Italian</option>
+						<option value="Portuguese">Portuguese</option>
+						<option value="Russian">Russian</option>
+						<option value="Spanish">Spanish</option>
+					</select>
+					<br>
+				<p class= "lead">Tell us your email:</p>
+					<input class= "form"></input>
+					<button class="button1 form">Submit!<p>
+
+
+				</form>
+			</div>
+
+				<div id="ServicesCarousel" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
 		    <li data-target="#ServicesCarousel" data-slide-to="0" class="active"></li>
@@ -109,7 +134,6 @@
 		      </div>
 		    </div>
 
-			</div>
 
 		  <!-- Left and right controls -->
 		  <a class="left carousel-control" href="#ServicesCarousel" role="button" data-slide="prev">
@@ -120,24 +144,10 @@
 		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		    <span class="sr-only">Next</span>
 		  </a>
-		</div>
 
-<div class="nexttocarousel"><!--/form -->
-			<p class="lead">Impressed?</p>
-				<p> <button class="button1">Select Language</button>
-					<select name="Select Language">
-  <option value="Arabic">Arabic</option>
-	<option value="Chinese">French</option>
-  <option value="French">French</option>
-	<option value="German">French</option>
-	<option value="Italian">French</option>
-  <option value="Portuguese">Portuguese</option>
-	<option value="Russian">French</option>
-  <option value="Spanish">Spanish</option>
-</select>
-</div>
+		</div><!--</form and carousel> -->
 
-<div class="sticky-container">
+<div class="sticky-container"><!-- Social media handles -->
     <ul class="sticky">
         <li>
             <a href="#" class="fa fa-facebook"></a>
